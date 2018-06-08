@@ -13,8 +13,8 @@ app.use(morgan('combined'))
 app.use(bodyParser.json())
 app.use(cors())
 
-const mongodb_conn_module = require('./mongodbConnModule');
-var db = mongodb_conn_module.connect();
+// const mongodb_conn_module = require('./mongodbConnModule');
+// var db = mongodb_conn_module.connect();
 
 var Post = require("../models/post");
 
